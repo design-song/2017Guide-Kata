@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Kata1\main.cpp">
+      <Filter>BotClient</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\MyBotModule.cpp">
+      <Filter>BotClient</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\BuildManager.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\CommandUtil.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\ConstructionManager.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\ConstructionPlaceFinder.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\GameCommander.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\InformationManager.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\ScoutManager.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\StrategyManager.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\UXManager.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\WorkerManager.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\MapTools.cpp">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\MetaType.cpp">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\UnitData.cpp">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\WorkerData.cpp">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\ConstructionTask.cpp">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\BuildOrderQueue.cpp">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\Common.cpp">
+      <Filter>BotSource\CommonUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="Kata1\Config.cpp">
+      <Filter>BotSource\CommonUtil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Kata1\MyBotModule.h">
+      <Filter>BotClient</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\BuildManager.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\CommandUtil.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\ConstructionManager.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\ConstructionPlaceFinder.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\GameCommander.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\InformationManager.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\ScoutManager.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\StrategyManager.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\UXManager.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\WorkerManager.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\MapTools.h">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\MetaType.h">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\UnitData.h">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\WorkerData.h">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\ConstructionTask.h">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\BuildOrderQueue.h">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\Common.h">
+      <Filter>BotSource\CommonUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata1\Config.h">
+      <Filter>BotSource\CommonUtil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BotClient">
+      <UniqueIdentifier>{c8cb4e54-d671-49ab-96cc-8408316ab2bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BotSource">
+      <UniqueIdentifier>{295ff9ca-e7f5-4de0-ba47-19bbf0421850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BotSource\CommonUtil">
+      <UniqueIdentifier>{41c4e5e4-ae7a-4210-b97c-af7eb92ab673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BotSource\DataStructure">
+      <UniqueIdentifier>{2a115475-fe41-43d7-9253-35be6a33749a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
