@@ -737,17 +737,15 @@ public class StrategyManager {
 		double minDistance = 1000000000;
 		double tempDistance = 0;		
 		for(Map.Entry<Integer,UnitInfo> unitInfoEntry : InformationManager.Instance().getUnitAndUnitInfoMap(enemyPlayer).entrySet()) {
-			if (unitInfoEntry.getValue().getType().isBuilding() 
-				&& unitInfoEntry.getValue().getUnit() != null
-				&& unitInfoEntry.getValue().getLastHealth() > 0) 
+			if (unitInfoEntry.getValue().getLastHealth() > 0) 
 			{
-				tempDistance = myMainBaseLocation.getDistance(unitInfoEntry.getValue().getUnit().getPosition());
+				tempDistance = myMainBaseLocation.getDistance(unitInfoEntry.getValue().getLastPosition());
 				if (minDistance > tempDistance) {
 					minDistance = tempDistance;
 					remainingBuildingUnitInfo = unitInfoEntry.getValue();
 				}
 			}
-		}		
+		}			
 		
 		// 아군 공격 유닛들로 하여금 적군의 남은 건물을 알고 있으면 그것을 공격하게 하고, 그렇지 않으면 맵 전체를 랜덤하게 돌아다니도록 합니다 
 		for(Unit unit : myPlayer.getUnits()) {

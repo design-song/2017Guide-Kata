@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AE3B9DC4-5FBB-4B57-8AB4-0D84D8649D78}</ProjectGuid>
-    <RootNamespace>Kata1</RootNamespace>
+    <RootNamespace>Kata2</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <ProjectName>Kata2</ProjectName>
   </PropertyGroup>
@@ -92,47 +92,47 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Kata1\ConstructionTask.cpp" />
-    <ClCompile Include="Kata1\ConstructionManager.cpp" />
-    <ClCompile Include="Kata1\ConstructionPlaceFinder.cpp" />
-    <ClCompile Include="Kata1\BuildOrderQueue.cpp" />
-    <ClCompile Include="Kata1\Common.cpp" />
-    <ClCompile Include="Kata1\Config.cpp" />
-    <ClCompile Include="Kata1\GameCommander.cpp" />
-    <ClCompile Include="Kata1\InformationManager.cpp" />
-    <ClCompile Include="Kata1\MapTools.cpp" />
-    <ClCompile Include="Kata1\MetaType.cpp" />
-    <ClCompile Include="Kata1\CommandUtil.cpp" />
-    <ClCompile Include="Kata1\MyBotModule.cpp" />
-    <ClCompile Include="Kata1\main.cpp" />
-    <ClCompile Include="Kata1\BuildManager.cpp" />
-    <ClCompile Include="Kata1\ScoutManager.cpp" />
-    <ClCompile Include="Kata1\StrategyManager.cpp" />
-    <ClCompile Include="Kata1\UnitData.cpp" />
-    <ClCompile Include="Kata1\UXManager.cpp" />
-    <ClCompile Include="Kata1\WorkerData.cpp" />
-    <ClCompile Include="Kata1\WorkerManager.cpp" />
+    <ClCompile Include="Kata2\ConstructionTask.cpp" />
+    <ClCompile Include="Kata2\ConstructionManager.cpp" />
+    <ClCompile Include="Kata2\ConstructionPlaceFinder.cpp" />
+    <ClCompile Include="Kata2\BuildOrderQueue.cpp" />
+    <ClCompile Include="Kata2\Common.cpp" />
+    <ClCompile Include="Kata2\Config.cpp" />
+    <ClCompile Include="Kata2\GameCommander.cpp" />
+    <ClCompile Include="Kata2\InformationManager.cpp" />
+    <ClCompile Include="Kata2\MapTools.cpp" />
+    <ClCompile Include="Kata2\MetaType.cpp" />
+    <ClCompile Include="Kata2\CommandUtil.cpp" />
+    <ClCompile Include="Kata2\MyBotModule.cpp" />
+    <ClCompile Include="Kata2\main.cpp" />
+    <ClCompile Include="Kata2\BuildManager.cpp" />
+    <ClCompile Include="Kata2\ScoutManager.cpp" />
+    <ClCompile Include="Kata2\StrategyManager.cpp" />
+    <ClCompile Include="Kata2\UnitData.cpp" />
+    <ClCompile Include="Kata2\UXManager.cpp" />
+    <ClCompile Include="Kata2\WorkerData.cpp" />
+    <ClCompile Include="Kata2\WorkerManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Kata1\ConstructionTask.h" />
-    <ClInclude Include="Kata1\ConstructionManager.h" />
-    <ClInclude Include="Kata1\ConstructionPlaceFinder.h" />
-    <ClInclude Include="Kata1\BuildOrderQueue.h" />
-    <ClInclude Include="Kata1\Common.h" />
-    <ClInclude Include="Kata1\Config.h" />
-    <ClInclude Include="Kata1\GameCommander.h" />
-    <ClInclude Include="Kata1\InformationManager.h" />
-    <ClInclude Include="Kata1\MapTools.h" />
-    <ClInclude Include="Kata1\MetaType.h" />
-    <ClInclude Include="Kata1\CommandUtil.h" />
-    <ClInclude Include="Kata1\MyBotModule.h" />
-    <ClInclude Include="Kata1\BuildManager.h" />
-    <ClInclude Include="Kata1\ScoutManager.h" />
-    <ClInclude Include="Kata1\StrategyManager.h" />
-    <ClInclude Include="Kata1\UnitData.h" />
-    <ClInclude Include="Kata1\UXManager.h" />
-    <ClInclude Include="Kata1\WorkerData.h" />
-    <ClInclude Include="Kata1\WorkerManager.h" />
+    <ClInclude Include="Kata2\ConstructionTask.h" />
+    <ClInclude Include="Kata2\ConstructionManager.h" />
+    <ClInclude Include="Kata2\ConstructionPlaceFinder.h" />
+    <ClInclude Include="Kata2\BuildOrderQueue.h" />
+    <ClInclude Include="Kata2\Common.h" />
+    <ClInclude Include="Kata2\Config.h" />
+    <ClInclude Include="Kata2\GameCommander.h" />
+    <ClInclude Include="Kata2\InformationManager.h" />
+    <ClInclude Include="Kata2\MapTools.h" />
+    <ClInclude Include="Kata2\MetaType.h" />
+    <ClInclude Include="Kata2\CommandUtil.h" />
+    <ClInclude Include="Kata2\MyBotModule.h" />
+    <ClInclude Include="Kata2\BuildManager.h" />
+    <ClInclude Include="Kata2\ScoutManager.h" />
+    <ClInclude Include="Kata2\StrategyManager.h" />
+    <ClInclude Include="Kata2\UnitData.h" />
+    <ClInclude Include="Kata2\UXManager.h" />
+    <ClInclude Include="Kata2\WorkerData.h" />
+    <ClInclude Include="Kata2\WorkerManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
